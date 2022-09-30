@@ -1,0 +1,19 @@
+{
+  "name": "express_store",
+  "version": "1.0.0",
+  "description": "store db",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "author": "slim_k",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

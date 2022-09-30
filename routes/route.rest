@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+
+GET http://localhost:3000/subscribers/6334d39f3625f5b0e581d00d
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Uchenyi",
+    "subscribedToChannel" : "koachedservicesyyy"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/6334d39f3625f5b0e581d00d
+
+
+###
+PATCH http://localhost:3000/subscribers/6334d4ae6950d9f9ee39f140
+Content-Type: application/json
+
+{
+    "name" : "Uchenyirrtttre",
+    "subscribedToChannel" : "koachedservicesyyy"
+}
