@@ -4,7 +4,8 @@
   "description": "store db",
   "main": "server.js",
   "scripts": {
-    "devstart": "nodemon server.js"
+    "devstart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "slim_k",
   "license": "ISC",
